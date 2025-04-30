@@ -6,7 +6,7 @@
 
 
 
-file = File.open('test01.fth', 'a')
+file = File.open('fig_test01.fth', 'a')
 file.write('sed do eiusmod tempor incididunt')
 file.close
 File.open('test.txt', 'r') do |file|
