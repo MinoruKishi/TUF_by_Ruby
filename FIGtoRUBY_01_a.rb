@@ -6,12 +6,12 @@
 
 
 
-Kernel.open('test.txt', 'a')
-#file.write('sed do eiusmod tempor incididunt')
-#file.close
-#File.open('foo.txt', 'r') do |file|
-# puts file.read
-#end
+file = File.open('test.txt', 'a')
+file.write('sed do eiusmod tempor incididunt')
+file.close
+File.open('test.txt', 'r') do |file|
+ puts file.read
+end
 
 
 
