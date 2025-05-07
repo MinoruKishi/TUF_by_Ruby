@@ -6,7 +6,7 @@
 
 flg_sw = false
 
-input_file = File.open('fig.fth', 'r') do |f|
+input_file = File.open('fig_test01.fth', 'r') do |f|
   f.each_line do |l|
 #    puts l
     if t = l.match(/^SCR . (\d+)/)
