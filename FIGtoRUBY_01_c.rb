@@ -101,9 +101,9 @@ end
     if w=="JMP,"
       @flg_words_new = 0
     end
-    if @list_words.find {|x| x == w } == nil
-      @list_words.push(w)
-    end
+#    if @list_words.find {|x| x == w } == nil
+#      @list_words.push(w)
+#    end
 
   else
   end
